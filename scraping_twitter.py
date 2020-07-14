@@ -1,9 +1,9 @@
 #Developement of Applications for Data Analysis
-"""
-Compartilhamento de conhecimento com novos analistas e desenvolvedores, 
-conteúdo para o desenvolvimento de robôs para raspagem de dados e automatização
-de processos que envolvam dados.
-"""
+
+#Compartilhamento de conhecimento com novos analistas e desenvolvedores, 
+#conteúdo para o desenvolvimento de robôs para raspagem de dados e automatização
+#de processos que envolvam dados.
+
 #Linguagem de programação Python versão 3.7
 
 #Bibliotecas utilizadas para requisição e raspagem
@@ -23,7 +23,8 @@ html = urlopen(i)
 #Utilização da biblioteca dando um parse na varíavel html, onde estão as URLs do site
 
 bsObj = BeautifulSoup(html,"html.parser") 
-Inicio de um laço 'for' para iniciar a contagem de quantos produtos irei raspar por página OBSERVAÇÃO --> No exemplo de raspagem de dados do twitter há um limite de 20 postagens por página, para outros sites é possível incluir um contador de páginas dentro do vetor, dessa forma será possível raspar ainda mais conteúdo com um único script.
+#Inicio de um laço 'for' para iniciar a contagem de quantos produtos irei raspar por página 
+#OBSERVAÇÃO --> No exemplo de raspagem de dados do twitter há um limite de 20 postagens por página, para outros sites é possível incluir um contador de páginas dentro do vetor, dessa forma será possível raspar ainda mais conteúdo com um único script.
 
 for cont in range(0,5):
 #É necessário que tenha domínio em linguagem HTML, pois é necessário explorar o DOM da página.
