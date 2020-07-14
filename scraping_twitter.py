@@ -1,12 +1,13 @@
-Developement of Applications for Data Analysis
-
-Compartilhamento de conhecimento com novos analistas e desenvolvedores, conteúdo para o desenvolvimento de robôs para raspagem de dados e automatização de processos que envolvam dados.
-
-Linguagem de programação Python versão 3.7
+#Developement of Applications for Data Analysis
+"""
+Compartilhamento de conhecimento com novos analistas e desenvolvedores, 
+conteúdo para o desenvolvimento de robôs para raspagem de dados e automatização
+de processos que envolvam dados.
+"""
+#Linguagem de programação Python versão 3.7
 
 #Bibliotecas utilizadas para requisição e raspagem
-
-#Importando bibliotecas para raspar os dados
+#Importando bibliotecas para raspagem dos dados
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
